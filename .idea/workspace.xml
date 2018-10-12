@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20117cc0-4d1f-4a32-817e-fd60b242063e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lbs4/mtbackend/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lbs4/mtbackend/controller/Controller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -70,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lbs4/mtbackend/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -621,12 +620,12 @@
       <workItem from="1539077725579" duration="5031000" />
       <workItem from="1539091972690" duration="4093000" />
       <workItem from="1539151796799" duration="3104000" />
-      <workItem from="1539337642914" duration="148000" />
+      <workItem from="1539337642914" duration="669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29583000" />
+    <option name="totallyTimeSpent" value="30104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,7 +641,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.3165548" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50183374" side_tool="true" visible="true" weight="0.3165548" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -658,10 +657,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.49938875" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987775" weight="0.3165548" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49816626" visible="true" weight="0.3165548" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49938875" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22188264" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22188264" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.17237164" />
@@ -1026,7 +1025,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lbs4/mtbackend/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
