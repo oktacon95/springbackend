@@ -12,7 +12,7 @@ timestamps {
    sh "docker stop springbackend" 
   }
   stage ('create new docker container') {
-   sh 'docker run --rm -d --name springbackend -p 8085:8085 -v /var/log/testlogs/cputemp.log:/var/log/testlogs/cputemp.log springbackend'
+   sh 'docker run --rm -d --name springbackend -p 8085:8085 -v /var/log/testlogs:/var/log/testlogs springbackend'
   }
  }
 }
