@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.xml.ws.Response;
+//import javax.xml.ws.Response;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -19,13 +19,14 @@ import java.nio.file.StandardOpenOption;
 public class Controller {
 
     private final String filePath = "/var/log/testlogs/cputemp.log";
+    //private final String testFilePath = "C:\\Users\\Danel\\score.txt";
 
     @RequestMapping("/upload")
     public ResponseEntity UploadFile(@RequestBody String body) {
         File textFile = new File(filePath);
 
         try {
-            Files.write(Paths.get(filePath), (body + System.lineSeparator()).getBytes(), StandardOpenOption.APPEND);
+            Files.write(Paths.get(filePath), (body + "Test Push" + System.lineSeparator()).getBytes(), StandardOpenOption.APPEND);
             return ResponseEntity.ok(null);
         }
         catch (IOException e) {
