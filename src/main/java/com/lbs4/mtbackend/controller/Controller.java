@@ -26,7 +26,7 @@ public class Controller {
         File textFile = new File(filePath);
 
         try {
-            Files.write(Paths.get(filePath), (body + "Test Push" + System.lineSeparator()).getBytes(), StandardOpenOption.APPEND);
+            Files.write(Paths.get(filePath), (body + System.lineSeparator()).getBytes(), StandardOpenOption.APPEND);
             return ResponseEntity.ok(null);
         }
         catch (IOException e) {
